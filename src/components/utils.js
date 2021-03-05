@@ -1,6 +1,6 @@
 import request from 'superagent';
 
-const URL = 'http://localhost:3000';
+const URL = 'https://git.heroku.com/favorites-backend.git';
 const USER = 'USER';
 
 export async function signupUser(email, password) {
