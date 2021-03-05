@@ -40,6 +40,7 @@ export default class FavSearchPage extends Component {
         console.log(this.state);
     }
     ifFavorite = (place) => {
+        //TA help! why is everything a favorite??
         const ifFavorites = this.state.favorites.find(favorite =>
         favorite.id === place.id);
         return Boolean(ifFavorites);
